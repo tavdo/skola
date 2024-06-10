@@ -1,0 +1,124 @@
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00000096;
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h1 img {
+    width: 50px;
+    height: auto;
+}
+
+nav ul li a img {
+    width: 20px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #ddd;
+    border-radius: 20px;
+}
+
+.activity-row {
+    display: contents;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.activity-card {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.564);
+    backdrop-filter: blur(0.2px);
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px; /* Ensures the width doesn't exceed a certain size */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+  
+    nav ul li {
+        margin: 0 10px;
+    }
+  
+    nav ul li a {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Alk";
+    src: url(alk.ttf);
+}
+
+
+*{
+    font-family: "Alk", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
